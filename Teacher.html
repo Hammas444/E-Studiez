@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+      #myBtn {
+        display: none; /* Hidden by default */
+        position: fixed; /* Fixed/sticky position */
+        bottom: 20px; /* Place the button at the bottom of the page */
+        right: 30px; /* Place the button 30px from the right */
+        z-index: 99; /* Make sure it does not overlap */
+        border: none; /* Remove borders */
+        outline: none; /* Remove outline */
+        background-color: rgb(219, 36, 76); /* Set a background color */
+        color: white; /* Text color */
+        cursor: pointer; /* Add a mouse pointer on hover */
+        padding: 15px; /* Some padding */
+        border-radius: 10px; /* Rounded corners */
+        font-size: 18px; /* Increase font size */
+      }
+      
+      
+      
+          </style>
+</head>
+<body >
+
+    <nav class="navbar navbar-expand-lg navbar- bg-transparent" >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="images/cc5b6876270f9dfe1a12fe07fa93dd93.jpg" alt="" style="height:50px ;"><b><span style="color:black ;font-family: 'Baloo 2', cursive;font-size: 25px;color: rgb(248, 91, 52);">eStudiez </span></b></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class=""><i class="fa-solid fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="Teacher.html" >Teacher</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Student.html" >Student</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Parent.html" >Parents</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Parent.html" style="color: rgb(240, 104, 70);font-family: 'Poppins', sans-serif;margin-left:200px ;">
+                <p id="printNameHere"></p>
+                </a>
+              </li>
+            </ul>
+        
+          </div>
+        </div>
+      </nav>
+     
+      <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+
+<div class="container" data-aos="fade-up">
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12"><br><br>
+
+
+
+
+          <div class="jumbotron"><br><br>
+            <h1 class="display-6 " style="color:rgb(34, 135, 194) ;font-family: 'Baloo 2', cursive;">Learn Anything.Anytime.<br>Anywhere</h1>
+            <p class="lead">Education is the key to unlocking potential for a better future. Our free online education courses will give you the means to inspire the next generation.<span style="display: none;" id="sp">We believe traditional ways of learning are outdated and that the modern student will learn best when given tools that allow for learning on-demand, when most needed.</span> </p>
+           
+           
+            <a class="btn btn- btn-" href="#" role="button" style="border-radius:0% ;background-color: rgb(255, 78, 87);color: white;box-shadow: 0 5px 10px rgba(153, 151, 151, 0.801);" onclick="learn()">Learn more</a>
+          </div>
+          <br>
+    
+           
+           
+           
+           
+
+           <button class="btn btn"></button>
+        </div>
+
+        <div class="col-lg-6 col-md-6 col-sm-12"><br><br>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/Teacher-PNG-Free-Download.png" class="d-block w-100" alt="...">
+                  </div>
+                  
+                 
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
+
+<br><br>
+
+<section data-aos="fade-up">
+  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column" style="background-image: url(images/Success.jpg);background-repeat: no-repeat;background-size: cover;">
+ 
+  
+    <main role="main" class="inner cover"><br>
+      <h1 class="display-4 text-center" style="color: rgb(34, 135, 194);font-family: 'Baloo 2', cursive;">Student Marks/Score Updations</h1>
+      <p class="lead text-center">Update About Marks</p>
+      <p class="lead"><br><br><br>
+        <center><a href="#" class="btn btn- btn-" style="background-color: rgb(255, 78, 87);color: white;border-radius: 0%;box-shadow: 0 5px 10px rgba(153, 151, 151, 0.801);" onclick="func()">Check Now</a></center>
+      </p>
+    </main>
+  
+    <footer class="mastfoot mt-auto">
+      <div class="inner">
+       
+      </div>
+    </footer>
+  </div>
+  <SECtion id="sec1" style="display: none;" data-aos="fade-up">
+    
+
+    <h1 class="display-4 text-center" style="font-weight:700 ;color: white;" ></h1>
+    <br><br>
+   
+  
+    <form>
+      <div class="mb-3">
+       <center> <label for="exampleInputEmail1" class="form-label">Math Marks</label></center>
+        <center><input type="number" class="form-control"  aria-describedby="emailHelp" style="width: 60%;"></center>
+        <div id="emailHelp" class="form-text"></div>
+      </div>
+      <div class="mb-3">
+      <center><label for="exampleInputEmail1" class="form-label">Science Marks</label></center>
+         <center><input type="number" class="form-control"  aria-describedby="emailHelp" style="width: 60%;"></center>
+        <div id="emailHelp" class="form-text"></div>
+      </div>
+      <div class="mb-3">
+      <center> <label for="exampleInputEmail1" class="form-label">Chemistry Marks</label></center>
+         <center><input type="number" class="form-control"  aria-describedby="emailHelp" style="width: 60%;"></center>
+        <div id="emailHelp" class="form-text"></div>
+      </div>
+      <div class="mb-3">
+      <center> <label for="exampleInputEmail1" class="form-label">Physics Marks</label></center>
+         <center><input type="number" class="form-control"  aria-describedby="emailHelp" style="width: 60%;"></center>
+        <div id="emailHelp" class="form-text"></div>
+      </div>
+      <div class="mb-3">
+      <center> <label for="exampleInputEmail1" class="form-label">English Marks</label></center>
+         <center><input type="number" class="form-control"  aria-describedby="emailHelp" style="width: 60%;"></center>
+        <div id="emailHelp" class="form-text"></div>
+      </div>
+    
+      <center><button type="submit" class="btn btn-" style="background-color:rgb(255, 78, 87) ;border-radius: 0%;color: white;box-shadow: 0 5px 10px rgba(153, 151, 151, 0.801);" onclick="upd()">Update Marks</button></center>
+    </form>
+    
+
+
+    
+    
+   
+  
+    </SECtion>
+</section><br><br><br><br><br><br>
+<section data-aos="fade-up">
+<div class="container"> 
+  <div class="row">
+    <div class="col-lg-6">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/successful-business-man-with-trophy_1150-35038.webp" class="d-block w-100" alt="...">
+          </div>
+          
+         
+        </div>
+      </div>
+    </div>
+
+      <div class="col-lg-6"><br><br><br>
+      <div class="jumbotron">
+        <h1 class="display-4 " style="color:rgb(34, 135, 194) ;font-family: 'Baloo 2', cursive;">Students Academic Progress</h1>
+        <p class="lead">Click To See Your Academic Progress</p>
+       
+       
+        <a class="btn btn- btn-" href="#" role="button" style="border-radius:0% ;background-color: rgb(255, 78, 87);color: white;box-shadow: 0 5px 10px rgba(153, 151, 151, 0.801);" onclick="uuu()">Check Out</a>
+      </div>
+      </div>
+   
+  </div>
+</div>
+</section>
+<section style="display: none;" id="f2" data-aos="fade-up">
+
+
+
+
+  <form>
+    <div class="mb-3">
+     <center> <label for="exampleInputEmail1" class="form-label">Student Name</label></center>
+      <center><input type="text" class="form-control"  aria-describedby="emailHelp" style="width: 60%;"></center>
+      <div id="emailHelp" class="form-text"></div>
+    </div>
+    <div class="mb-3">
+    <center><label for="exampleInputEmail1" class="form-label">Student Attendance</label></center>
+    <center> <input type="number" class="form-control"  aria-describedby="emailHelp" style="width: 60%;"></center>
+      <div id="emailHelp" class="form-text"></div>
+    </div>
+    <div class="mb-3">
+    <center> <label for="exampleInputEmail1" class="form-label">Total Marks</label></center>
+    <center> <input type="number" class="form-control"  aria-describedby="emailHelp" style="width: 60%;"></center>
+      <div id="emailHelp" class="form-text"></div>
+    </div>
+    <div class="mb-3">
+    <center> <label for="exampleInputEmail1" class="form-label">Percentage</label></center>
+    <center><input type="number" class="form-control"  aria-describedby="emailHelp" style="width: 60%;"></center>
+      <div id="emailHelp" class="form-text"></div>
+    </div>
+    <div class="mb-3">
+    <center> <label for="exampleInputEmail1" class="form-label">Grade</label></center>
+    <center> <input type="text" class="form-control"  aria-describedby="emailHelp" style="width: 60%;"> </center>
+      <div id="emailHelp" class="form-text"></div>
+    </div>
+  
+    <center><button type="submit" class="btn btn-" style="background-color:rgb(255, 78, 87) ;border-radius: 0%;color: white;box-shadow: 0 5px 10px rgba(153, 151, 151, 0.801);" onclick="upd2()">Update Marks</button></center>
+  </form>
+
+
+
+
+
+
+
+
+
+</section><br><br><br><br><br><br><br><br>
+<section data-aos="fade-up">
+    <center><div class="container-fluid">   <h1 class="display-4 " style="color:rgb(34, 135, 194) ;font-family: 'Baloo 2', cursive;">Revision Classes Updations</h1>
+        <form action="action_page.php">
+          <div class="row">
+            <div class="col-25">
+              <label for="fname">Class Teacher</label>
+            </div>
+            
+            <div class="col-75">
+              <input type="text" id="fname" name="firstname" placeholder="Your name.." style="width: 60%;">
+            </div>
+          </div><br>
+         
+          <br>
+          <div class="row">
+            <div class="col-25">
+              <label for="country">Subject</label>
+            </div>
+            <div class="col-75">
+              <select id="country" name="country" style="width: 60%;">
+                <option value="australia">Math</option>
+                <option value="canada">Chemistry</option>
+                <option value="usa">Physics</option>
+                <option value="canada">English</option>
+                <option value="usa">Science</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Revision Date</label>
+            </div>
+            <div class="col-75">
+              <input type="date" id="lname" name="lastname" placeholder="Your last name..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="subject"></label>
+            </div>
+            <div class="col-75">
+           
+            </div>
+          </div>
+      
+          <button class="btn btn" style="background-color: rgb(255, 78, 87);color:white ;border-radius: 0%;box-shadow: 0 5px 10px rgba(153, 151, 151, 0.801);">Update</button>
+     
+        </form>
+      </div></center>
+</section>
+
+<br><br><br><br><br><br><br><br><br>
+<section data-aos="fade-up">
+
+
+  <center><div class="wrapper">
+   <center><h2 class="display-4 ">Feedback Form</h2></center>
+    <form action="#">
+      <div class="input-box">
+        <input type="text" placeholder="Enter your name" required style="width:60%">
+      </div>
+      <div class="input-box">
+        <input type="text" placeholder="Enter your email" required style="width:60%">
+      </div>
+      
+      <div class="input-box">
+        <textarea type="text" placeholder="Give your Feedback" required style="width: 60%;"></textarea>
+      </div>
+     <br>
+      <div class="input-box button">
+        <input type="Submit" value="Register Now" style="width:60%">
+      </div>
+     
+    </form>
+  </div></center>
+
+   
+</section>
+<br><br><br><br><br>
+<section data-aos="fade-up"><h1 class="cover-heading text-center" style="color:rgb(34, 135, 194) ;font-family: 'Baloo 2', cursive;font-weight: 600;">Contact Info</h1>
+  <center><div class="container" id="form">
+    <div class="content">
+      <div class="left-side">
+        <div class="address details">
+          <i class="fas fa-map-marker-alt"></i>
+          <div class="topic">Address</div>
+          <div class="text-one">Surkhet, NP12</div>
+          <div class="text-two">Birendranagar 06</div>
+        </div>
+        <div class="phone details">
+          <i class="fas fa-phone-alt"></i>
+          <div class="topic">Phone</div>
+          <div class="text-one">+0098 9893 5647</div>
+          <div class="text-two">+0096 3434 5678</div>
+        </div>
+        <div class="email details">
+          <i class="fas fa-envelope"></i>
+          <div class="topic">Email</div>
+          <div class="text-one">codinglab@gmail.com</div>
+          <div class="text-two">info.codinglab@gmail.com</div>
+        </div>
+      </div>
+      <div class="right-side">
+        <div class="topic-text"></div>
+        <p>If you have any work from me or any types of quries related to my tutorial, you can send me message from here. It's my pleasure to help you.</p>
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Enter your name">
+        </div>
+        <div class="input-box">
+          <input type="text" placeholder="Enter your email">
+        </div>
+        <div class="input-box message-box">
+          
+        </div>
+        <div class="button">
+          <input type="button" value="Send Now" >
+        </div>
+      </form>
+    </div>
+    </div>
+  </div></center>
+</section>
+
+<br><br><br><br>
+
+
+<br><br><br>
+
+<section data-aos="fade-right">
+
+    <center>
+    <div class="container">
+      <h1 class="display-4 " style="font-weight:800 ;color:rgb(34, 135, 194) ;font-family: 'Baloo 2', cursive;">Helping Numbers</h1>
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/help.jpg" class="d-block w-100" alt="...">
+          </div>
+         
+        </div>
+      </div>
+    </div>
+    </center>
+    
+    
+    </section>
+
+<br><br><br><br>
+
+<footer>
+
+
+  <div class="container-fluid" style="background-color: rgb(16, 94, 184)">
+    <footer class="py-3 ">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="Teacher.html" class="nav-link px-2 " style="color: white;">Teacher</a></li>
+        <li class="nav-item"><a href="Student.html" class="nav-link px-2 " style="color: white;">Student</a></li>
+        <li class="nav-item"><a href="Parent.html" class="nav-link px-2 " style="color: white;">Parent</a></li>
+   
+      </ul>
+      <p class="text-center "><i class="fa-brands fa-twitter" style="font-size: 20px;color: white;"></i><i class="fa-brands fa-instagram" style="margin-left: 10px;font-size: 20px;color: white;"></i><i class="fa-brands fa-facebook" style="margin-left: 10px;font-size: 20px;color: white;"></i></p>
+    </footer>
+  </div>
+
+
+</footer>
+
+<script>
+
+
+  function func(){
+var a=document.getElementById("sec1").style.display="block"
+
+
+
+
+  }
+
+function upd(){
+
+alert("Student Marks has been Updated")
+
+
+}
+function uuu(){
+  var n=document.getElementById("f2").style.display="block"
+
+
+
+}
+function upd2(){
+
+alert("Student Progress has been Updated")
+
+
+}
+
+function learn(){
+
+var r=document.getElementById("sp").style.display = "block";
+
+
+}
+
+  // Example starter JavaScript for disabling form submissions if there are invalid fields
+(function () {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  var forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.prototype.slice.call(forms)
+    .forEach(function (form) {
+      form.addEventListener('submit', function (event) {
+        if (!form.checkValidity()) {
+          event.preventDefault()
+          event.stopPropagation()
+        }
+
+        form.classList.add('was-validated')
+      }, false)
+    })
+})()
+</script>
+
+<script>
+
+
+  //Get the button
+  var mybutton = document.getElementById("myBtn");
+  
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+  
+</script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+    <script>
+ 
+      function getParameterByName(name, url) {
+          if (!url) url = window.location.href;
+          name = name.replace(/[\[\]]/g, '\\$&');
+          var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+              results = regex.exec(url);
+          if (!results) return null;
+          if (!results[2]) return '';
+          return decodeURIComponent(results[2].replace(/\+/g, ' '));
+      }
+      
+      var sn = getParameterByName('userName');
+      
+      document.getElementById("printNameHere").innerHTML = sn;
+      
+      </script>
+
+
+
+  </body>
+</html>
